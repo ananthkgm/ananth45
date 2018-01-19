@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int a[50],i,n,min;
 printf("enter the range");
@@ -18,4 +18,5 @@ min=a[i];
 }
 }
 printf("%d",min);
+  return 0;
 }
