@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     int arr[MAX_SIZE];
     int size;
@@ -27,6 +27,5 @@ int main()
     for(i=0; i<size; i++)
     {
         printf("%d\t", arr[i]);
-        return 0;
     }
 }
