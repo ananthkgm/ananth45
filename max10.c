@@ -16,6 +16,6 @@ a[j]=t;
 }
 }
 }
-printf("%d",a[9]);
+printf("the max number is %d",a[9]);
 return 0;
 }
