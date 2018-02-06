@@ -6,4 +6,11 @@ int i,k;
 printf("enter the name:");
 scanf("%s",&a);
 printf("enter the length:");
-scanf("
+scanf("%d",&k);
+  for(i=0;i<k;i++)
+  {
+    b[i]==a[i];
+    printf("%s",b);
+  }
+  return 0;
+}
